@@ -1,7 +1,10 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="{% static 'myfirst.css' %}">
+<head>
+    <link rel="stylesheet" href="{% static 'myglobal.css' %}">
+</head>
 <body>
 
 {% for x in fruits %}
@@ -9,8 +12,6 @@
 {% endfor %}
 
 <p>In views.py you can see what the fruits variable looks like.</p>
-
-
 
 </body>
 </html>
